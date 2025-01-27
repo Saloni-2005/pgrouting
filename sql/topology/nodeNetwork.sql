@@ -177,7 +177,7 @@ BEGIN
       SET client_min_messages TO warning;
       EXECUTE 'CREATE TABLE '||_pgr_quote_ident(outtab)||' (
         id bigserial PRIMARY KEY,
-        old_id INTEGER,
+        old_id BIGINT,
         sub_id INTEGER,
         source BIGINT,
         target BIGINT)';
