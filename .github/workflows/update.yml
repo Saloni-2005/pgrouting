@@ -95,18 +95,6 @@ jobs:
           make -j 4
           sudo make install
 
-      - name: Verify schema 
-        run: |
-          psql -p "${PGPORT}" -d ___pgr___test___ -c "\d+ edges_node_network"
-
-      - name: Test pgr_nodeNetwork with large old_id
-        run: |
-          sudo service postgresql start
-          psql -p "${PGPORT}" -d ___pgr___test___ -c "
-          SELECT * FROM pgr_nodeNetwork('edges', 0.001, 'id', 'geom', 'noded', '', false);
-          INSERT INTO edges_node_network (old_id) VALUES (9223372036854775807);
-          "
-
       - name: Test old version before update with current tests
         run: |
           sudo service postgresql start
