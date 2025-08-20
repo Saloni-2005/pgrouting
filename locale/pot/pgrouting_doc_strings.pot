@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting v4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 15:47+0000\n"
+"POT-Creation-Date: 2025-08-18 16:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3080,9 +3080,6 @@ msgid ":doc:`metrics-family`"
 msgstr ""
 
 msgid ":doc:`pgr_betweennessCentrality` - Calculates relative betweenness centrality using Brandes Algorithm"
-msgstr ""
-
-msgid ":doc:`pgr_bandwidth` - Computes the bandwidth of a graph."
 msgstr ""
 
 msgid ":doc:`TRSP-family`"
@@ -7036,10 +7033,10 @@ msgstr ""
 msgid "This Release Contributors"
 msgstr ""
 
-msgid "Individuals in this release v3.8.x (in alphabetical order)"
+msgid "Individuals in this release v4.0.0 (in alphabetical order)"
 msgstr ""
 
-msgid "Aurélie Bousquet, Regina Obe, Saloni kumari, Vicky Vergara"
+msgid "Regina Obe, Vicky Vergara"
 msgstr ""
 
 msgid "And all the people that give us a little of their time making comments, finding issues, making pull requests etc. in any of our products: osm2pgrouting, pgRouting, pgRoutingLayer, workshop."
@@ -7078,7 +7075,7 @@ msgstr ""
 msgid "Individuals (in alphabetical order)"
 msgstr ""
 
-msgid "Aasheesh Tiwari, Abhinav Jain, Aditya Pratap Singh, Adrien Berchet, Akio Takubo, Andrea Nardelli, Anthony Tasca, Anton Patrushev, Aryan Gupta, Ashraf Hossain, Ashish Kumar, Aurélie Bousquet, Cayetano Benavent, Christian Gonzalez, Daniel Kastl, Dapeng Wang, Dave Potts, David Techer, Denis Rykov, Ema Miyawaki, Esteban Zimanyi, Florian Thurkow, Frederic Junod, Gerald Fenoy, Gudesa Venkata Sai Akhil, Hang Wu, Himanshu Raj, Imre Samu, Jay Mahadeokar, Jinfu Leng, Kai Behncke, Kishore Kumar, Ko Nagase, Mahmoud Sakr, Manikata Kondeti, Mario Basa, Martin Wiesenhaan, Maxim Dubinin, Maoguang Wang, Mohamed Bakli, Mohamed Zia, Mukul Priya, Nitish Chauhan, Rajat Shinde, Razequl Islam, Regina Obe, Rohith Reddy, Saloni Kumari, Sarthak Agarwal, Shobhit Chaurasia, Sourabh Garg, Stephen Woodbridge, Swapnil Joshi, Sylvain Housseman, Sylvain Pasche, Veenit Kumar, Vidhan Jain, Virginia Vergara, Yige Huang"
+msgid "Aasheesh Tiwari, Abhinav Jain, Aditya Pratap Singh, Adrien Berchet, Akio Takubo, Andrea Nardelli, Anthony Tasca, Anton Patrushev, Aryan Gupta, Ashraf Hossain, Ashish Kumar, Aurélie Bousquet, Cayetano Benavent, Christian Gonzalez, Daniel Kastl, Dapeng Wang, Dave Potts, David Techer, Denis Rykov, Ema Miyawaki, Esteban Zimanyi, Florian Thurkow, Frederic Junod, Gerald Fenoy, Gudesa Venkata Sai Akhil, Hang Wu, Himanshu Raj, Imre Samu, Jay Mahadeokar, Jinfu Leng, Kai Behncke, Kishore Kumar, Ko Nagase, Mahmoud Sakr, Manikata Kondeti, Mario Basa, Martin Wiesenhaan, Maxim Dubinin, Maoguang Wang, Mohamed Bakli, Mohamed Zia, Mukul Priya, Nitish Chauhan, Rajat Shinde, Razequl Islam, Regina Obe, Rohith Reddy, Sarthak Agarwal, Shobhit Chaurasia, Sourabh Garg, Stephen Woodbridge, Swapnil Joshi, Sylvain Housseman, Sylvain Pasche, Veenit Kumar, Vidhan Jain, Virginia Vergara, Yige Huang"
 msgstr ""
 
 msgid "Corporate Sponsors (in alphabetical order)"
@@ -7817,54 +7814,6 @@ msgid "`Boost: Biconnected components & articulation points <https://www.boost.o
 msgstr ""
 
 msgid "wikipedia: `Biconnected component <https://en.wikipedia.org/wiki/Biconnected_component>`__"
-msgstr ""
-
-msgid "``pgr_bandwidth`` - Experimental"
-msgstr ""
-
-msgid "``pgr_bandwidth`` - Calculates the bandwidth of the graph"
-msgstr ""
-
-msgid "Bandwidth measures how \"spread out\" the connections are in a graph when vertices are arranged in a linear order (like numbering them 1, 2, 3, etc.)."
-msgstr ""
-
-msgid "For each edge in the graph, calculate the distance between the vertex numbers it connects"
-msgstr ""
-
-msgid "The bandwidth is the maximum of all these distances"
-msgstr ""
-
-msgid "The implementation is for undirected graphs"
-msgstr ""
-
-msgid "Run time is 0.160789 seconds"
-msgstr ""
-
-msgid "pgr_bandwidth(`Edges SQL`_)"
-msgstr ""
-
-msgid "Returns ``BIGINT``"
-msgstr ""
-
-msgid "For an undirected graph with edges."
-msgstr ""
-
-msgid "Returns a bigint ``(pgr_bandwidth)``"
-msgstr ""
-
-msgid "``pgr_bandwidth``"
-msgstr ""
-
-msgid "gives the bandwidth of the graph."
-msgstr ""
-
-msgid "Undirected graph with edges before optimization."
-msgstr ""
-
-msgid "Undirected graph with edges after optimization."
-msgstr ""
-
-msgid "`Boost: bandwidth <https://www.boost.org/libs/graph/doc/bandwidth.html>`_"
 msgstr ""
 
 msgid "``pgr_bdAstar``"
@@ -11164,7 +11113,7 @@ msgstr ""
 msgid "``pgr_johnson``"
 msgstr ""
 
-msgid "``pgr_johnson`` - Returns the sum of the costs of the shortest path for each pair of nodes in the graph using Floyd-Warshall algorithm."
+msgid "``pgr_johnson`` - Returns the sum of the costs of the shortest path for each pair of nodes in the graph using Johnson algorithm."
 msgstr ""
 
 msgid "The Johnson algorithm, is a good choice to calculate the sum of the costs of the shortest path for each pair of nodes in the graph, for *sparse graphs*. It uses the Boost's implementation which runs in :math:`O(V E \\log V)` time,"
@@ -15601,13 +15550,13 @@ msgstr ""
 msgid "It is recommended to use the following wrapper on the problem to pin point the step that is causing the problem."
 msgstr ""
 
-msgid "Mailing List and GIS StackExchange"
+msgid "Mailing List, Matrix, GIS StackExchange"
 msgstr ""
 
-msgid "There are two mailing lists for pgRouting hosted on OSGeo mailing list server:"
+msgid "There are two mailing lists for pgRouting hosted on OSGeo discourse server:"
 msgstr ""
 
-msgid "User mailing list: https://lists.osgeo.org/mailman/listinfo/pgrouting-users"
+msgid "User mailing list: https://discourse.osgeo.org/c/pgrouting/pgrouting-users/"
 msgstr ""
 
 msgid "Developer mailing list: https://discourse.osgeo.org/c/pgrouting/pgrouting-dev/"
@@ -15617,6 +15566,9 @@ msgid "Subscribe: https://discourse.osgeo.org/g/pgrouting-dev"
 msgstr ""
 
 msgid "For general questions and topics about how to use pgRouting, please write to the user mailing list."
+msgstr ""
+
+msgid "If you want to chat with fellow pgRouting users and contributors, you can join our matrix channel: `pgRouting matrix channel <https://matrix.to/#/#pgrouting:osgeo.org>`_."
 msgstr ""
 
 msgid "You can also ask at `GIS StackExchange <https://gis.stackexchange.com/>`_ and tag the question with ``pgrouting``. Find all questions tagged with ``pgrouting`` under https://gis.stackexchange.com/questions/tagged/pgrouting or subscribe to the `pgRouting questions feed <https://gis.stackexchange.com/feeds/tag?tagnames=pgrouting&sort=newest>`_."

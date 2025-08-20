@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgRouting v3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 15:47+0000\n"
+"POT-Creation-Date: 2025-08-18 16:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3407,9 +3407,6 @@ msgstr ""
 msgid ""
 ":doc:`pgr_betweennessCentrality` - Calculates relative betweenness "
 "centrality using Brandes Algorithm"
-msgstr ""
-
-msgid ":doc:`pgr_bandwidth` - Computes the bandwidth of a graph."
 msgstr ""
 
 msgid ":doc:`TRSP-family`"
@@ -8226,10 +8223,10 @@ msgstr ""
 msgid "This Release Contributors"
 msgstr ""
 
-msgid "Individuals in this release v3.8.x (in alphabetical order)"
+msgid "Individuals in this release v4.0.0 (in alphabetical order)"
 msgstr ""
 
-msgid "Aurélie Bousquet, Regina Obe, Saloni kumari, Vicky Vergara"
+msgid "Regina Obe, Vicky Vergara"
 msgstr ""
 
 msgid ""
@@ -8284,9 +8281,9 @@ msgid ""
 "Nagase, Mahmoud Sakr, Manikata Kondeti, Mario Basa, Martin Wiesenhaan, "
 "Maxim Dubinin, Maoguang Wang, Mohamed Bakli, Mohamed Zia, Mukul Priya, "
 "Nitish Chauhan, Rajat Shinde, Razequl Islam, Regina Obe, Rohith Reddy, "
-"Saloni Kumari, Sarthak Agarwal, Shobhit Chaurasia, Sourabh Garg, Stephen "
-"Woodbridge, Swapnil Joshi, Sylvain Housseman, Sylvain Pasche, Veenit "
-"Kumar, Vidhan Jain, Virginia Vergara, Yige Huang"
+"Sarthak Agarwal, Shobhit Chaurasia, Sourabh Garg, Stephen Woodbridge, "
+"Swapnil Joshi, Sylvain Housseman, Sylvain Pasche, Veenit Kumar, Vidhan "
+"Jain, Virginia Vergara, Yige Huang"
 msgstr ""
 
 msgid "Corporate Sponsors (in alphabetical order)"
@@ -9148,59 +9145,6 @@ msgstr ""
 msgid ""
 "wikipedia: `Biconnected component "
 "<https://en.wikipedia.org/wiki/Biconnected_component>`__"
-msgstr ""
-
-msgid "``pgr_bandwidth`` - Experimental"
-msgstr ""
-
-msgid "``pgr_bandwidth`` - Calculates the bandwidth of the graph"
-msgstr ""
-
-msgid ""
-"Bandwidth measures how \"spread out\" the connections are in a graph when"
-" vertices are arranged in a linear order (like numbering them 1, 2, 3, "
-"etc.)."
-msgstr ""
-
-msgid ""
-"For each edge in the graph, calculate the distance between the vertex "
-"numbers it connects"
-msgstr ""
-
-msgid "The bandwidth is the maximum of all these distances"
-msgstr ""
-
-msgid "The implementation is for undirected graphs"
-msgstr ""
-
-msgid "Run time is 0.160789 seconds"
-msgstr ""
-
-msgid "pgr_bandwidth(`Edges SQL`_)"
-msgstr ""
-
-msgid "Returns ``BIGINT``"
-msgstr ""
-
-msgid "For an undirected graph with edges."
-msgstr ""
-
-msgid "Returns a bigint ``(pgr_bandwidth)``"
-msgstr ""
-
-msgid "``pgr_bandwidth``"
-msgstr ""
-
-msgid "gives the bandwidth of the graph."
-msgstr ""
-
-msgid "Undirected graph with edges before optimization."
-msgstr ""
-
-msgid "Undirected graph with edges after optimization."
-msgstr ""
-
-msgid "`Boost: bandwidth <https://www.boost.org/libs/graph/doc/bandwidth.html>`_"
 msgstr ""
 
 msgid "``pgr_bdAstar``"
@@ -13247,7 +13191,7 @@ msgstr ""
 
 msgid ""
 "``pgr_johnson`` - Returns the sum of the costs of the shortest path for "
-"each pair of nodes in the graph using Floyd-Warshall algorithm."
+"each pair of nodes in the graph using Johnson algorithm."
 msgstr ""
 
 msgid ""
@@ -18798,17 +18742,17 @@ msgid ""
 "point the step that is causing the problem."
 msgstr ""
 
-msgid "Mailing List and GIS StackExchange"
+msgid "Mailing List, Matrix, GIS StackExchange"
 msgstr ""
 
 msgid ""
-"There are two mailing lists for pgRouting hosted on OSGeo mailing list "
+"There are two mailing lists for pgRouting hosted on OSGeo discourse "
 "server:"
 msgstr ""
 
 msgid ""
-"User mailing list: https://lists.osgeo.org/mailman/listinfo/pgrouting-"
-"users"
+"User mailing list: https://discourse.osgeo.org/c/pgrouting/pgrouting-"
+"users/"
 msgstr ""
 
 msgid ""
@@ -18822,6 +18766,12 @@ msgstr ""
 msgid ""
 "For general questions and topics about how to use pgRouting, please write"
 " to the user mailing list."
+msgstr ""
+
+msgid ""
+"If you want to chat with fellow pgRouting users and contributors, you can"
+" join our matrix channel: `pgRouting matrix channel "
+"<https://matrix.to/#/#pgrouting:osgeo.org>`_."
 msgstr ""
 
 msgid ""
